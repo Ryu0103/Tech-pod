@@ -14,6 +14,13 @@
 		1BDEC97E1C0ACD0A00C51712 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BDEC97C1C0ACD0A00C51712 /* LaunchScreen.storyboard */; };
 		1BDEC9891C0ACD0A00C51712 /* TechPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDEC9881C0ACD0A00C51712 /* TechPodTests.swift */; };
 		1BDEC9941C0ACD0B00C51712 /* TechPodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDEC9931C0ACD0B00C51712 /* TechPodUITests.swift */; };
+		1BDEC9AA1C0AF37C00C51712 /* Bach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BDEC9A31C0AF37C00C51712 /* Bach.jpg */; };
+		1BDEC9AB1C0AF37C00C51712 /* Beethoven.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BDEC9A41C0AF37C00C51712 /* Beethoven.jpg */; };
+		1BDEC9AC1C0AF37C00C51712 /* Pachelbel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BDEC9A51C0AF37C00C51712 /* Pachelbel.jpg */; };
+		1BDEC9AD1C0AF37C00C51712 /* aria.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1BDEC9A71C0AF37C00C51712 /* aria.mp3 */; };
+		1BDEC9AE1C0AF37C00C51712 /* cannon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1BDEC9A81C0AF37C00C51712 /* cannon.mp3 */; };
+		1BDEC9AF1C0AF37C00C51712 /* elise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1BDEC9A91C0AF37C00C51712 /* elise.mp3 */; };
+		1BDEC9B11C0AF52300C51712 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BDEC9B01C0AF52300C51712 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		1BDEC98F1C0ACD0A00C51712 /* TechPodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechPodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BDEC9931C0ACD0B00C51712 /* TechPodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechPodUITests.swift; sourceTree = "<group>"; };
 		1BDEC9951C0ACD0B00C51712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BDEC9A31C0AF37C00C51712 /* Bach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bach.jpg; sourceTree = "<group>"; };
+		1BDEC9A41C0AF37C00C51712 /* Beethoven.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Beethoven.jpg; sourceTree = "<group>"; };
+		1BDEC9A51C0AF37C00C51712 /* Pachelbel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pachelbel.jpg; sourceTree = "<group>"; };
+		1BDEC9A71C0AF37C00C51712 /* aria.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aria.mp3; sourceTree = "<group>"; };
+		1BDEC9A81C0AF37C00C51712 /* cannon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cannon.mp3; sourceTree = "<group>"; };
+		1BDEC9A91C0AF37C00C51712 /* elise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = elise.mp3; sourceTree = "<group>"; };
+		1BDEC9B01C0AF52300C51712 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BDEC9B11C0AF52300C51712 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +92,7 @@
 		1BDEC9671C0ACD0A00C51712 = {
 			isa = PBXGroup;
 			children = (
+				1BDEC9B01C0AF52300C51712 /* AVFoundation.framework */,
 				1BDEC9721C0ACD0A00C51712 /* TechPod */,
 				1BDEC9871C0ACD0A00C51712 /* TechPodTests */,
 				1BDEC9921C0ACD0B00C51712 /* TechPodUITests */,
@@ -99,6 +115,7 @@
 			children = (
 				1BDEC9731C0ACD0A00C51712 /* AppDelegate.swift */,
 				1BDEC9751C0ACD0A00C51712 /* ViewController.swift */,
+				1BDEC9A11C0AF37C00C51712 /* Resources */,
 				1BDEC9771C0ACD0A00C51712 /* Main.storyboard */,
 				1BDEC97A1C0ACD0A00C51712 /* Assets.xcassets */,
 				1BDEC97C1C0ACD0A00C51712 /* LaunchScreen.storyboard */,
@@ -123,6 +140,35 @@
 				1BDEC9951C0ACD0B00C51712 /* Info.plist */,
 			);
 			path = TechPodUITests;
+			sourceTree = "<group>";
+		};
+		1BDEC9A11C0AF37C00C51712 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1BDEC9A21C0AF37C00C51712 /* Images */,
+				1BDEC9A61C0AF37C00C51712 /* Songs */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1BDEC9A21C0AF37C00C51712 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1BDEC9A31C0AF37C00C51712 /* Bach.jpg */,
+				1BDEC9A41C0AF37C00C51712 /* Beethoven.jpg */,
+				1BDEC9A51C0AF37C00C51712 /* Pachelbel.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		1BDEC9A61C0AF37C00C51712 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				1BDEC9A71C0AF37C00C51712 /* aria.mp3 */,
+				1BDEC9A81C0AF37C00C51712 /* cannon.mp3 */,
+				1BDEC9A91C0AF37C00C51712 /* elise.mp3 */,
+			);
+			path = Songs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +275,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BDEC9AC1C0AF37C00C51712 /* Pachelbel.jpg in Resources */,
+				1BDEC9AB1C0AF37C00C51712 /* Beethoven.jpg in Resources */,
 				1BDEC97E1C0ACD0A00C51712 /* LaunchScreen.storyboard in Resources */,
+				1BDEC9AA1C0AF37C00C51712 /* Bach.jpg in Resources */,
 				1BDEC97B1C0ACD0A00C51712 /* Assets.xcassets in Resources */,
+				1BDEC9AF1C0AF37C00C51712 /* elise.mp3 in Resources */,
+				1BDEC9AE1C0AF37C00C51712 /* cannon.mp3 in Resources */,
 				1BDEC9791C0ACD0A00C51712 /* Main.storyboard in Resources */,
+				1BDEC9AD1C0AF37C00C51712 /* aria.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +534,7 @@
 				1BDEC99A1C0ACD0B00C51712 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BDEC99B1C0ACD0B00C51712 /* Build configuration list for PBXNativeTarget "TechPodTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +543,7 @@
 				1BDEC99D1C0ACD0B00C51712 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BDEC99E1C0ACD0B00C51712 /* Build configuration list for PBXNativeTarget "TechPodUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +552,7 @@
 				1BDEC9A01C0ACD0B00C51712 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
